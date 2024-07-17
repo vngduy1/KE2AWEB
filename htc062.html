@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="ke2a04,ヴ ゴック ズイ" />
+    <title>埋込動画</title>
+  </head>
+  <body>
+    <h1>mp4 &lt;video&gt; （HTML5～）</h1>
+    <p>
+      images/htc062.mp4
+      <video src="images/htc062.mp4" controls loop muted width="400">
+        video要素対応プラウザでご覧でください
+      </video>
+    </p>
+
+    <h1>コピーした埋込コード &lt;iframe&gt;</h1>
+    <dl>
+      <dt>
+        2022年度ECCコンピュータ専門学校ITカレッジ（ITカレッジ向けノートパソコンガイダンスの再生リスト）
+      </dt>
+      <dd>
+        <a
+          href="https://www.youtube.com/playlist?list=PLf5109uLcDHO3MspyshCsw1a2IxEuKkwb"
+          target="_blank"
+        >
+          https://www.youtube.com/playlist?list=PLf5109uLcDHO3MspyshCsw1a2IxEuKkwb
+        </a>
+      </dd>
+      <dt>Windows初期セットアップ</dt>
+      <dd>
+        再生画面を右クリック [埋め込みコードをコピー] 貼付<br />
+        　⇒長いＵＲＬで640x360というやや大きめで表示。title属性値がYouTubeでの表示タイトルと同じになる<br />
+        <iframe
+          width="640"
+          height="360"
+          src="https://www.youtube.com/embed/7QSIjaZ90As?list=PLf5109uLcDHO3MspyshCsw1a2IxEuKkwb"
+          title="Windows初期セットアップ"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </dd>
+      <dt>ネットワーク設定について [共有] [埋め込む]</dt>
+      <dd>
+        [動画の埋め込み]下のiframeタグコードを選択してコピー 貼付<br />
+        　⇒短いＵＲＬで560x315というやや小ぶりに表示。title属性値は常に"YouTube
+        video player"<br />
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/q8CGN7DkoDU?list=PLf5109uLcDHO3MspyshCsw1a2IxEuKkwb"
+          title="ネットワーク設定について"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </dd>
+
+      <dt>SV23とNT22のアクセス方法について [共有]</dt>
+      <dd>
+        [コピー]したＵＲＬをiframe要素のsrc属性値に設定　⇒接続拒否<br />
+        ※ブラウザのアドレス欄のＵＲＬを使用しても同じく接続拒否<br />
+        <iframe
+          width="560"
+          height="315"
+          src="https://youtu.be/tesPGjkr7NE?si=hGebfTJnqgGUiNhi"
+          title="SV23とNT22のアクセス方法について"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </dd>
+    </dl>
+  </body>
+</html>

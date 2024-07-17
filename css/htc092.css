@@ -1,0 +1,39 @@
+/* ke2a04
+ヴゴックズイ
+２０２４・０６・２7 */
+
+#title {
+  font-size: 4em;
+  font-family: Arial, "ゴシック体";
+  text-align: center;
+  color: #00baff;
+  letter-spacing: 0.3em;
+}
+
+p {
+  text-indent: 1em;
+  line-height: 1.5em;
+}
+
+em {
+  color: #22f;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.subTitle {
+  color: #2bc;
+  font-size: 18px;
+}
+
+.keyword {
+  color: #f2b;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  text-decoration: underline;
+}
+#copy {
+  text-align: center;
+  font-style: normal;
+  font-size: 10px;
+}

@@ -1,0 +1,39 @@
+/* ke2a04
+ヴゴックズイ
+２０２４・０６・２０ */
+
+* {
+  padding: 0;
+}
+
+h2 {
+  color: green;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+/* h3 {
+  color: red;
+} */
+
+.eichi3 {
+  color: yellow;
+}
+
+#frame {
+  background-color: orange;
+}
+
+#frame .first {
+  color: blue;
+}
+
+.first {
+  color: red;
+}
+
+/* #h3b {
+  color: blue;
+} */

@@ -1,0 +1,55 @@
+/* ke2a04
+ヴゴックズイ
+２０２４・０６・２7 */
+
+body {
+  font-family: "ＭＳ Ｐゴシック", sans-serif;
+  font-size: 100%;
+  padding: 20px;
+  background-color: #f0ffba;
+  background-image: url("../images/htc103_back.jpg");
+  background-repeat: repeat;
+  background-position: left top;
+}
+
+.mainTitle {
+  color: #3f200e;
+  font-size: 20px;
+  border-bottom: 3px solid #8f7517;
+}
+
+.subTitle {
+  color: #3f200e;
+  font-size: 20px;
+  padding-left: 5px;
+  border-left: 3px solid #8f7517;
+}
+
+.set {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px dotted #453933;
+}
+
+.set p {
+  font-size: 0.7em;
+  margin: 10px;
+  padding: 5px 0;
+  line-height: 1.5em;
+}
+
+.set img {
+  padding: 2px;
+  background-color: #fff;
+  border: 1px solid #bebebe;
+}
+
+#drinkMenu {
+  text-align: right;
+}
+
+.itemTitle {
+  color: #fff;
+  padding: 0.3em;
+  background-color: #281105;
+}

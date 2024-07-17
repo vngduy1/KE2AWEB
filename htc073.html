@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="ke2a04,ヴ ゴック ズイ" />
+    <title>スローライフカフェ | 会員登録フォーム</title>
+  </head>
+  <body>
+    <h1>
+      <img src="./images/htc053_logo.png" alt="スローライフカフェのロゴ" />
+    </h1>
+
+    <ul>
+      <li>HOME</li>
+      <li>FOOD</li>
+      <li>DRINK</li>
+      <li>DESSERT</li>
+      <li>ACCESS</li>
+    </ul>
+
+    <h1>会員登録フォーム</h1>
+
+    <p>下記項目にIDとパスワードを入力して下さい。</p>
+    <form
+      method="POST"
+      action="http://click.ecc.ac.jp/ecc/bshu/htc073regist.php"
+    >
+      <div>
+        <label for="user_name">ユーザーID：</label>
+        <input type="text" id="user_name" name="user_name" />
+      </div>
+      <div>
+        <label for="user_pass">パスワード：</label>
+        <input type="password" id="user_pass" name="user_pass" />
+      </div>
+      <div><input type="submit" id="send" name="send" value="送信" /></div>
+    </form>
+    <address>送信 copyright &copy; slowlifecafe .AllRights Reserved.</address>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+/* 
+htc112.css
+ヴゴックズイ
+2024/07/11
+ */
+
+body {
+  font-size: 13px;
+  line-height: 1.3;
+  font-family: "ＭＳ Ｐゴシック", osaka, sans-serif;
+}
+
+#box {
+  width: 600px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 100px;
+}
+
+#images {
+  position: absolute;
+  top: 110px;
+}
+
+#text {
+  position: absolute;
+  top: 110px;
+  left: 260px;
+}
+
+#top {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#photo {
+  position: absolute;
+  top: 0;
+  left: 60px;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  left: 120px;
+}
+
+#mail {
+  position: absolute;
+  top: 0;
+  left: 180px;
+}

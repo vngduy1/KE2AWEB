@@ -1,0 +1,45 @@
+/* ke2a04
+ヴゴックズイ
+２０２４・０６・２０ */
+
+body {
+  font-family: "ＭＳ Ｐゴシック", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #cc0033;
+  font-size: 1.3em;
+}
+
+h2,
+h3 {
+  font-family: "Times New Roman", serif;
+  font-size: 1.1em;
+}
+
+.text {
+  text-indent: 1em;
+}
+
+.text::first-letter {
+  font-size: 2em;
+  color: #cc3300;
+}
+
+.text em {
+  font-style: normal;
+  color: #cc3300;
+}
+
+.text strong {
+  font-weight: normal;
+  color: #cc3300;
+  text-decoration: underline;
+}
+
+#innyou {
+  font-style: 12px;
+  text-align: right;
+  font-family: monospace;
+}

@@ -1,0 +1,45 @@
+/* ke2a04
+ヴゴックズイ
+２０２４・０６・２7 */
+
+body {
+  font-family: "ＭＳ Ｐゴシック";
+  font-size: 18px;
+  margin-top: 30px;
+  margin-left: 10px;
+  background-color: #69c;
+  color: #fff;
+}
+
+h1 {
+  font-size: 90%;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  border-left: 5px solid #36f;
+  border-bottom: 1px solid #36f;
+  letter-spacing: 0.4em;
+}
+
+h2,
+h3 {
+  font-size: 80%;
+  color: #9cf;
+}
+
+p {
+  text-indent: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+#kasen {
+  text-decoration: underline;
+  color: #ffc;
+}
+
+.waku {
+  font-size: 75%;
+  margin: 0;
+  padding: 1.3em;
+  border: 1px solid #666;
+}

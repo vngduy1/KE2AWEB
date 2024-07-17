@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="ke2a04,ヴ ゴック ズイ" />
+    <title>アンケート</title>
+  </head>
+  <body>
+    <h1>商品アンケート</h1>
+    <div style="border-bottom: 1px solid #333"></div>
+    <form method="post" action="http://click.ecc.ac.jp/ecc/bshu/htc072enq.php">
+      <table>
+        <tr>
+          <th>ユーザー名</th>
+          <td><input type="text" id="name" name="name" /></td>
+        </tr>
+        <tr>
+          <th>ユーザーID</th>
+          <td><input type="text" id="user_id" name="user_id" /></td>
+        </tr>
+        <tr>
+          <th><label for="pass">パスワード</label></th>
+          <td><input type="password" id="pass" name="pass" /></td>
+        </tr>
+        <tr>
+          <th><label for="pass_again">パスワード（確認）</label></th>
+          <td><input type="password" id="pass_again" name="pass_again" /></td>
+        </tr>
+        <tr>
+          <th>お住まいの地方</th>
+          <td>
+            <select id="area" name="area">
+              <option value="">-----</option>
+              <option value="hokkaidou">北海道</option>
+              <option value="touhoku">東北地方</option>
+              <option value="kantou">関東地方</option>
+              <option value="chuubu">中部地方</option>
+              <option value="kinki">近畿地方</option>
+              <option value="chuugoku">中国地方</option>
+              <option value="sikoku">四国地方</option>
+              <option value="kyuushuu">九州地方</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th><label>どこで知りましたか</label></th>
+          <td>
+            <input type="radio" name="media" id="med1" value="internet" />
+            <label for="med1">インターネット</label>
+            <input type="radio" name="media" id="med2" value="tv" />
+            <label for="med2">テレビ</label>
+            <input type="radio" name="media" id="med3" value="magazine" />
+            <label for="med3">雑誌・広告</label>
+            <input type="radio" name="media" id="med4" value="etc" checked />
+            <label for="med4">その他</label>
+          </td>
+        </tr>
+        <tr>
+          <th><label for="accept">お得な情報</label></th>
+          <td>
+            <input type="checkbox" id="accept" name="mail" />
+            <label for="accept">サイトのお得な情報を受取る</label>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="comment">ご意見ご参考</label></td>
+          <td>
+            <textarea id="comment" name="comment" cols="60" rows="4"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center">
+            <input type="submit" value="送信" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

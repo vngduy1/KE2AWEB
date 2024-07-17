@@ -1,0 +1,62 @@
+/* 
+htc111.css
+ヴゴックズイ
+2024/07/04
+ */
+
+body {
+  background-color: #fff;
+  background-image: url("../images/htc111_back.jpg");
+  background-position: left top;
+  background-repeat: repeat-x;
+}
+
+#box {
+  width: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+
+h1 {
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+#text {
+  font-size: 0.8em;
+  line-height: 1.5;
+  width: 600px;
+  height: 5em;
+  overflow: auto;
+  position: absolute;
+  top: 260px;
+}
+
+#box p {
+  position: absolute;
+}
+
+#photo1 {
+  top: 50px;
+  left: 20px;
+  z-index: 1;
+}
+
+#photo2 {
+  top: 120px;
+  left: 120px;
+  z-index: 3;
+}
+
+#photo3 {
+  top: 50px;
+  left: 220px;
+  z-index: 2;
+}
+
+#photo4 {
+  top: 120px;
+  left: 320px;
+  z-index: 4;
+}
