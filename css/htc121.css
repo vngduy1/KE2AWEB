@@ -1,0 +1,43 @@
+/* 
+htc121.css
+ヴゴックズイ
+2024/07/18
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+body {
+  font-family: "Arial Black", sans-serif;
+}
+
+h1 {
+  font-size: 1.2em;
+  margin: 20px;
+  padding: 0 7px;
+  border-left: 5px solid #f36;
+}
+
+#g_navi {
+  list-style: none;
+  width: 100%;
+  background-color: #f36;
+  height: 80px;
+  border-bottom: 1px solid #c36;
+  display: flex;
+}
+
+#g_navi li {
+  color: #fff;
+  font-weight: bold;
+  float: left;
+  width: 125px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  border-right: 1px dotted #fff;
+  background-color: #f06;
+}
